@@ -1,0 +1,51 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+}
+
+img {
+        max-width: 100%;
+        
+}
+
+
+#board {
+        margin: 100px auto;
+        width: 800px;
+        background-color: rgb(207, 205, 205);
+        padding: 20px;
+}
+
+
+#picture {
+        width: 200px;
+        
+}       
+
+#header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#about, #follow {
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+                justify-content: center;
+}
+#name, #created {
+        text-decoration: underline;
+}
+
+#table {
+        border-collapse: collapse;
+        width: 100%;
+}
+
+table td {
+        border: 2px black solid;        
+        text-align: center;
+    }
