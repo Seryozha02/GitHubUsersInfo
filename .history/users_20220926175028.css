@@ -31,7 +31,8 @@ img {
   row-gap: 50px;
   justify-content: center;
 }
-#name, #created {
+#name,
+#created {
   text-decoration: underline;
 }
 

@@ -1,4 +1,4 @@
-let api = fetch("https://api.github.com/users/Seryozha02");
+let api = fetch("https://api.github.com/users/DavidAbgaryan");
 api.then((result) => {
     return result.json();
   })
@@ -28,10 +28,9 @@ api.then((result) => {
               let following = document.createElement("h2")
               following.id = following
 
-       
+        console.log(resp.repos_url)
     // creating Repository's table
-
-    let respUrl = resp.repos_url
+    
     let api2 = new Promise(function(resolve, reject){
             resolve(fetch(respUrl))
     })

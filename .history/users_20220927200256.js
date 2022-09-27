@@ -1,4 +1,4 @@
-let api = fetch("https://api.github.com/users/Seryozha02");
+let api = fetch("https://api.github.com/users/NarekYeritsyan");
 api.then((result) => {
     return result.json();
   })

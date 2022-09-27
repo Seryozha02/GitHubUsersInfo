@@ -1,10 +1,11 @@
-let api = fetch("https://api.github.com/users/Seryozha02");
-api.then((result) => {
+let api = fetch("https://api.github.com/users/DavidAbgaryan");
+api
+  .then((result) => {
     return result.json();
   })
   .then((response) => {
     let resp = response;
-    console.log(resp);
+  
     // creating Header elements with their id's and children
 
     let cart = document.createElement("div");
@@ -28,13 +29,10 @@ api.then((result) => {
               let following = document.createElement("h2")
               following.id = following
 
-       
-    // creating Repository's table
 
-    let respUrl = resp.repos_url
-    let api2 = new Promise(function(resolve, reject){
-            resolve(fetch(respUrl))
-    })
+    // creating Repository's table
+    let promise = 
+    let api2 = fetch("https://api.github.com/users/Seryozha02/repos");
     api2.then(result2 => {
         return result2.json()
         

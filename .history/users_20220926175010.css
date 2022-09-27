@@ -25,13 +25,15 @@ img {
   align-items: center;
 }
 
-#about, #follow {
+#about,
+#follow {
   display: flex;
   flex-direction: column;
   row-gap: 50px;
   justify-content: center;
 }
-#name, #created {
+#name,
+#created {
   text-decoration: underline;
 }
 
