@@ -4,8 +4,7 @@ api.then((result) => {
   })
   .then((response) => {
     let resp = response;
-    
-    // creating Header elements with their id's and children
+        // creating Header elements with their id's and children
 
     let cart = document.createElement("div");
     cart.id = "board";
